@@ -294,7 +294,7 @@
   .form-btn {
     @apply text-16 rounded-lg border border-bankGradient bg-bank-gradient font-semibold text-white shadow-form;
   }
-
+  
   .form-link {
     @apply text-14 cursor-pointer font-medium text-bankGradient;
   }
@@ -357,10 +357,6 @@
 
   .footer_image {
     @apply relative size-5 max-xl:w-full max-xl:flex max-xl:justify-center max-xl:items-center;
-  }
-
-  .footer_image-mobile {
-    @apply relative size-5;
   }
 
   /* Sidebar */
