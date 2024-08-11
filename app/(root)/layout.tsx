@@ -11,8 +11,22 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   // const loggedIn = await getLoggedInUser();
-  const loggedIn= {firstName:'aryan', lastName:'jain'}
-
+  const loggedIn = {
+    $id: '123456789',
+    email: 'aryan.jain@example.com',
+    userId: 'user_001',
+    dwollaCustomerUrl: 'https://api.dwolla.com/customers/12345678',
+    dwollaCustomerId: '12345678',
+    firstName: 'aryan',
+    lastName: 'jain',
+    name: 'aryan jain',
+    address1: '1234 Main St',
+    city: 'Mumbai',
+    state: 'MH',
+    postalCode: '400001',
+    dateOfBirth: '1995-08-15',
+    ssn: '1234-1234-1234'
+  };
   if(!loggedIn) redirect('/sign-in')
 
   return (
